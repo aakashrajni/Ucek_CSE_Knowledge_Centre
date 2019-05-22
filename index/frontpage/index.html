@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width">
+  <link href="css1/style2.css" rel="stylesheet" />
+  
+
+  
+
+  <style>
+  
+</style>
+</head>
+<body>
+  <div class="alogo">
+    <img  src="img1/hlogo.jpg">
+  </div>
+
+  <div class="dig" >
+    <img src="img1/digi5.png">
+  </div>
+  <div class="dig2">
+    <img src="img1/digi4.png">
+  </div>
+
+
+
+  <div >  <table style="margin-left:590px; margin-right:10px;   margin-top:60px" >
+    <tbody>
+      <tr style="width:50%">
+        <td style="width:40%">
+          <div class="login-page" >
+            <div class="form">
+              <form class="login-form"  name="myForm" method="post" onsubmit="return(validateForm());" action="slogin.php">
+                <label style="font-weight:bold; font-size:25px; font-family: sans-serif;">Staff</label>
+
+                <input type="text" placeholder="Employee-Id" name="username"/>
+                <input type="password" placeholder="password" name ="password"/>
+                <button>login</button>
+                <p class="message">Not registered? <a href="form.php">Create an account</a></p>
+                 <p class="message">Forgot Password? <a href="form.php">Password</a></p>
+              </form>
+            </div>
+          </div>
+        </td>
+        
+        <td>
+          <div style="border-left:10px height:200px"></div></td>
+
+          <td style="width:50%">
+
+           <div class="login-page">
+            <div class="form">
+
+              <form class="login-form" name="myForm" method="post" onsubmit="return(validateForm());" action="login.php" >
+                <label style="font-weight:bold; font-size:25px; font-family: sans-serif;">Student</label>
+                <input type="text" placeholder="Register number" name="username"/>
+                <input type="password" placeholder="password" name="password"/>
+                <button>login</button>
+                <p class="message">Not registered? <a href="form.php">Create an account</a></p>
+                <p class="message">Forgot Password? <a href="form.php">Password</a></p>
+              </form>
+            </div>
+          </div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+
+</body>
+
+
+</html>

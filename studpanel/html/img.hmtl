@@ -1,0 +1,10 @@
+<html
+
+<div id="kv-avatar-errors-2" class="center-block" style="width:800px;display:none"></div>
+<form class="form form-vertical" action="/avatar_upload.php" method="post" enctype="multipart/form-data">
+    <div class="row">
+        <div class="col-sm-4">
+            <div class="kv-avatar center-block text-center" style="width:200px">
+                <input id="avatar-2" name="avatar-2" type="file" class="file-loading" required>
+            </div>
+        </div>

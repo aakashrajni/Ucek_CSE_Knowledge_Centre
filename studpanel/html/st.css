@@ -1,0 +1,105 @@
+
+/*.sidebar-nav 
+{
+    background-color: #303F9F;
+} */
+/*.navbar-header
+{
+    background-color: #5C6BC0;
+}*/
+.profile-pic1{
+    margin-top: 5px;
+}
+
+.dropbtn {
+   /* background-color: #4CAF50;*/
+    color: white;
+    padding: 5px;
+    font-size:35px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+ 
+ .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 170px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    font-weight: bolder;
+    font-size: 20px;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}             
+
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+/*.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}*/
+
+.container
+{
+	margin-left: :50px 300px;
+
+}
+
+.container1
+{
+	margin: 50px 50px;
+
+}
+             
+input.hidden {
+    position: absolute;
+    left: -9999px;
+}
+
+#profile-image1 {
+    cursor: pointer;
+  
+     width: 100px;
+    height: 100px;
+	border:2px solid #03b1ce ;}
+	.tital{ font-size:16px; font-weight:500;}
+	 .bot-border{ border-bottom:1px #f8f8f8 solid;  margin:5px 0  5px 0
+	 }
+
+	 .panel panel-default
+	 {
+	 	margin-left: 30px;
+	 }	
+
+.ftr
+{
+	margin-bottom: fixed;
+   
+}
+
+.up
+{
+	width:50%;
+	font-size: 18px;
+	margin-top: 50px;
+	margin-left: 300px;
+	font-weight: bolder;
+
+}

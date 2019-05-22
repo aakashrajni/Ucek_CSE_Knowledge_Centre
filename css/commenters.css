@@ -1,0 +1,29 @@
+#drbtn {
+	position: absolute;
+	margin-left: 750px;
+	margin-top: -7px;
+}
+
+#arbtn {
+	position: absolute;
+	margin-left: 650px;
+	margin-top: -7px;
+}
+
+
+select {
+    padding-top: 10px;
+    margin-top: 10px;
+}
+
+
+body .modal-admin {
+    /* new custom width */
+    width: 750px;
+    /* must be half of the width, minus scrollbar on the left (30px) */
+    margin-left: 375px;
+    margin-top: 100px;
+    padding-bottom: 10px;
+}
+
+
